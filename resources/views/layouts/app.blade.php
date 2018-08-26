@@ -38,8 +38,8 @@
                 </button>
 
                 <!-- Branding Image -->
-                <a class="navbar-brand" href="{{ url('/') }}">
-                    Task List
+                <a class="navbar-brand" href="{{ route('root') }}">
+                    {{ config('app.name','Laravel') }}
                 </a>
             </div>
 
